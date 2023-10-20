@@ -16,7 +16,7 @@ namespace TestsTestCasesProcessor
             var testCases = TestResultsProcessor.ParseJson(json);
 
             // Export to CSV
-            TestResultsProcessor.WriteTestCasesToCsv(testCases, "test_results1.csv");
+            TestResultsProcessor.WriteTestCasesToCsv(testCases, outputPath);
             TestCaseMetrics metrics = new TestCaseMetrics();
             metrics.CalculateMetrics(testCases); // Assuming testCases is your list of test cases
             TestResultsProcessor.DisplayMetrics(metrics);

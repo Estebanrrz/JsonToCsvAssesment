@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonToCSV", "JsonToCSV\Json
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsTestCasesProcessor", "TestsTestCasesProcessor\TestsTestCasesProcessor.csproj", "{8992528F-6B01-4D5E-91F4-1DBC085204C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProgram", "MainProgram\MainProgram.csproj", "{C0C85F76-2BBF-46FD-B37A-478DCF529BEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8992528F-6B01-4D5E-91F4-1DBC085204C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8992528F-6B01-4D5E-91F4-1DBC085204C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8992528F-6B01-4D5E-91F4-1DBC085204C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C85F76-2BBF-46FD-B37A-478DCF529BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C85F76-2BBF-46FD-B37A-478DCF529BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C85F76-2BBF-46FD-B37A-478DCF529BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C85F76-2BBF-46FD-B37A-478DCF529BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
