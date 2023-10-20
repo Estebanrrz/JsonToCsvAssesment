@@ -97,7 +97,7 @@
   },
   {
     "Name": "Test Case 17",
-    "Status": "Passed",
+    "Status": "Not Executed",
     "ExecutionTime": 2.98,
     "Timestamp": "2023-10-20T03:10:00"
   },
@@ -109,7 +109,7 @@
   },
   {
     "Name": "Test Case 19",
-    "Status": "Passed",
+    "Status": "Not Executed",
     "ExecutionTime": 3.76,
     "Timestamp": "2023-10-20T05:40:00"
   },

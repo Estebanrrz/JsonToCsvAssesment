@@ -1,5 +1,8 @@
 ﻿namespace JsonToCSV
 {
+    /// <summary>
+    /// Test case Object
+    /// </summary>
     public class TestCase
     {
         public TestCase(string name, string status, double executionTime, DateTime timestamp)

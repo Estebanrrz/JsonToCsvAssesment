@@ -1,5 +1,8 @@
 ﻿namespace JsonToCSV
 {
+    /// <summary>
+    /// Test Case metrics objet to Calculate metrics
+    /// </summary>
     public class TestCaseMetrics
     {
         public int TotalTestCases { get; private set; }
@@ -10,13 +13,16 @@
         public double MinExecutionTime { get; private set; }
         public double MaxExecutionTime { get; private set; }
 
+        /// <summary>
+        /// Calculates metrics based on list of test cases
+        /// </summary>
+        /// <param name="testCases">List of Testcases to calculate metrics</param>
         public void CalculateMetrics(List<TestCase> testCases)
         {
             TotalTestCases = testCases.Count;
-            PassedTestCases = testCases.Count(tc => tc.Status=="Passed");
+            PassedTestCases = testCases.Count(tc => tc.Status == "Passed");
             FailedTestCases = testCases.Count(tc => tc.Status == "Failed");
-            NotExecutedTestCases = testCases.Count(tc => tc.Status == "NotExecuted");
-
+            NotExecutedTestCases = testCases.Count(tc => tc.Status == "Not Executed");
 
             if (TotalTestCases > 0)
             {
@@ -26,5 +32,4 @@
             }
         }
     }
-
 }
