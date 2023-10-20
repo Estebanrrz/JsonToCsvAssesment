@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\bin\Debug\net6.0\JsonToCSV.deps.json
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\bin\Debug\net6.0\JsonToCSV.dll
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\bin\Debug\net6.0\JsonToCSV.pdb
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.AssemblyInfo.cs
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.dll
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\refint\JsonToCSV.dll
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\JsonToCSV.pdb
+C:\Users\User\source\repos\JsonToCSV\JsonToCSV\obj\Debug\net6.0\ref\JsonToCSV.dll

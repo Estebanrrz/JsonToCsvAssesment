@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Test Case 1",
+    "Status": "Passed",
+    "ExecutionTime": 4.56,
+    "Timestamp": "2023-10-19T10:30:00"
+  },
+  {
+    "Name": "Test Case 2",
+    "Status": "Failed",
+    "ExecutionTime": 6.78,
+    "Timestamp": "2023-10-19T11:15:00"
+  },
+  {
+    "Name": "Test Case 3",
+    "Status": "Passed",
+    "ExecutionTime": 3.21,
+    "Timestamp": "2023-10-19T12:45:00"
+  },
+  {
+    "Name": "Test Case 4",
+    "Status": "Passed",
+    "ExecutionTime": 5.32,
+    "Timestamp": "2023-10-19T14:00:00"
+  },
+  {
+    "Name": "Test Case 5",
+    "Status": "Not Executed",
+    "ExecutionTime": 7.42,
+    "Timestamp": "2023-10-19T15:20:00"
+  },
+  {
+    "Name": "Test Case 6",
+    "Status": "Passed",
+    "ExecutionTime": 3.98,
+    "Timestamp": "2023-10-19T16:10:00"
+  },
+  {
+    "Name": "Test Case 7",
+    "Status": "Not Executed",
+    "ExecutionTime": 2.34,
+    "Timestamp": "2023-10-19T17:30:00"
+  },
+  {
+    "Name": "Test Case 8",
+    "Status": "Failed",
+    "ExecutionTime": 9.87,
+    "Timestamp": "2023-10-19T18:40:00"
+  },
+  {
+    "Name": "Test Case 9",
+    "Status": "Passed",
+    "ExecutionTime": 4.12,
+    "Timestamp": "2023-10-19T19:15:00"
+  },
+  {
+    "Name": "Test Case 10",
+    "Status": "Passed",
+    "ExecutionTime": 3.99,
+    "Timestamp": "2023-10-19T20:25:00"
+  },
+  {
+    "Name": "Test Case 11",
+    "Status": "Passed",
+    "ExecutionTime": 4.76,
+    "Timestamp": "2023-10-19T21:10:00"
+  },
+  {
+    "Name": "Test Case 12",
+    "Status": "Failed",
+    "ExecutionTime": 7.25,
+    "Timestamp": "2023-10-19T22:30:00"
+  },
+  {
+    "Name": "Test Case 13",
+    "Status": "Passed",
+    "ExecutionTime": 4.87,
+    "Timestamp": "2023-10-19T23:40:00"
+  },
+  {
+    "Name": "Test Case 14",
+    "Status": "Passed",
+    "ExecutionTime": 3.67,
+    "Timestamp": "2023-10-20T00:15:00"
+  },
+  {
+    "Name": "Test Case 15",
+    "Status": "Failed",
+    "ExecutionTime": 8.32,
+    "Timestamp": "2023-10-20T01:20:00"
+  },
+  {
+    "Name": "Test Case 16",
+    "Status": "Passed",
+    "ExecutionTime": 4.43,
+    "Timestamp": "2023-10-20T02:35:00"
+  },
+  {
+    "Name": "Test Case 17",
+    "Status": "Passed",
+    "ExecutionTime": 2.98,
+    "Timestamp": "2023-10-20T03:10:00"
+  },
+  {
+    "Name": "Test Case 18",
+    "Status": "Failed",
+    "ExecutionTime": 6.22,
+    "Timestamp": "2023-10-20T04:25:00"
+  },
+  {
+    "Name": "Test Case 19",
+    "Status": "Passed",
+    "ExecutionTime": 3.76,
+    "Timestamp": "2023-10-20T05:40:00"
+  },
+  {
+    "Name": "Test Case 20",
+    "Status": "Passed",
+    "ExecutionTime": 4.89,
+    "Timestamp": "2023-10-20T06:15:00"
+  }
+]

@@ -1,0 +1,21 @@
+Name,Status,ExecutionTime,Timestamp
+Test Case 1,Passed,4.56,10/19/2023 10:30:00
+Test Case 2,Failed,6.78,10/19/2023 11:15:00
+Test Case 3,Passed,3.21,10/19/2023 12:45:00
+Test Case 4,Passed,5.32,10/19/2023 14:00:00
+Test Case 5,Not Executed,7.42,10/19/2023 15:20:00
+Test Case 6,Passed,3.98,10/19/2023 16:10:00
+Test Case 7,Not Executed,2.34,10/19/2023 17:30:00
+Test Case 8,Failed,9.87,10/19/2023 18:40:00
+Test Case 9,Passed,4.12,10/19/2023 19:15:00
+Test Case 10,Passed,3.99,10/19/2023 20:25:00
+Test Case 11,Passed,4.76,10/19/2023 21:10:00
+Test Case 12,Failed,7.25,10/19/2023 22:30:00
+Test Case 13,Passed,4.87,10/19/2023 23:40:00
+Test Case 14,Passed,3.67,10/20/2023 00:15:00
+Test Case 15,Failed,8.32,10/20/2023 01:20:00
+Test Case 16,Passed,4.43,10/20/2023 02:35:00
+Test Case 17,Passed,2.98,10/20/2023 03:10:00
+Test Case 18,Failed,6.22,10/20/2023 04:25:00
+Test Case 19,Passed,3.76,10/20/2023 05:40:00
+Test Case 20,Passed,4.89,10/20/2023 06:15:00
