@@ -1,4 +1,5 @@
 ﻿using JsonToCSV;
+using Newtonsoft.Json;
 
 namespace JsonToCSV
 {
@@ -6,57 +7,48 @@ namespace JsonToCSV
     {
         static void Main()
         {
-
-
             try
             {
-                Console.WriteLine("Enter the JSON Path:");
+                Console.WriteLine("Please enter the path to the JSON file (e.g., C:\\Users\\User\\Documents\\input.json):");
 
-                string inputPath = Console.ReadLine();
-                string json = File.ReadAllText(inputPath);
-                // Parse JSON into a list of test cases
-                var testCases = TestResultsProcessor.ParseJson(json);
+                string inputPath = Console.ReadLine()!;
 
-                // Export to CSV
-                Console.WriteLine("Enter the output Path:");
-                string outputPath = Console.ReadLine();
-                TestResultsProcessor.WriteTestCasesToCsv(testCases, outputPath);
-                // Calculate test metrics
-                var metrics = new TestCaseMetrics();
-                metrics.CalculateMetrics(testCases);
+                if (File.Exists(inputPath))
+                {
+                    string json = File.ReadAllText(inputPath);
+                    var testCases = TestResultsProcessor.ParseJson(json);
 
-                // Display metrics
-                TestResultsProcessor.DisplayMetrics(metrics);
+                    Console.WriteLine("Please enter the path for the CSV output file (e.g., C:\\Users\\User\\Documents\\output.csv):");
+                    string outputPath = Console.ReadLine()!;
 
+                    // Export to CSV
+                    TestResultsProcessor.WriteTestCasesToCsv(testCases, outputPath);
+
+                    // Calculate test metrics
+                    var metrics = new TestCaseMetrics();
+                    metrics.CalculateMetrics(testCases);
+
+                    // Display metrics
+                    TestResultsProcessor.DisplayMetrics(metrics);
+                }
+                else
+                {
+                    Console.WriteLine("The specified input file does not exist.");
+                }
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine($"An I/O error occurred: {ex.Message}");
+            }
+            catch (JsonException ex)
+            {
+                Console.WriteLine($"JSON parsing error: {ex.Message}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine($"An unexpected error occurred: {ex.Message}");
             }
+
         }
     }
 }
-//
-
-//    if (File.Exists(configFile))
-//    {
-//        try
-//        {
-//            string configJson = File.ReadAllText(configFile);
-//            var config = JsonSerializer.Deserialize<AppConfig>(configJson);
-
-//            // Use config.JsonFilePath and config.CsvFilePath for your program
-//            ProcessTestResults(config.JsonFilePath, config.CsvFilePath);
-//        }
-//        catch (JsonException ex)
-//        {
-//            Console.WriteLine($"Error parsing the JSON configuration: {ex.Message}");
-//        }
-//    }
-//    else
-//    {
-//        Console.WriteLine("Configuration file not found. Please create a 'config.json' file.");
-//    }
-//}
-
-
