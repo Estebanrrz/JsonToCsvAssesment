@@ -15,7 +15,7 @@ Make sure you have the .NET SDK (Software Development Kit) installed. If you don
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/TestResultsAnalyzer.git
+   git clone https://github.com/Estebanrrz/JsonToCsvAssesment.git
 
 
 #### Option 1
