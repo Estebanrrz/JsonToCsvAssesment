@@ -32,7 +32,6 @@ namespace JsonToCSV
             {
                 csv.WriteRecords(testCases);
             }
-
         }
 
         /// <summary>
