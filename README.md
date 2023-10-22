@@ -23,9 +23,10 @@ Make sure you have the .NET SDK (Software Development Kit) installed. If you don
 Open the repository in Visual Studio.
 Build the project.
 Navigate to C:\..\JsonToCSV\MainProgram\bin\Release\net6.0.
-Execute MainProgram.exe.
+Execute MainProgram.exe
 
 #### Option 2
+Select MainProgram project on Build/debug Toolbar
 Click the "Run Project" button in Visual Studio.
 
 #### Option 3
